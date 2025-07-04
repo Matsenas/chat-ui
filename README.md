@@ -1,3 +1,13 @@
+---
+title: Chat UI (Skip LLAMA CPP build)
+emoji: 🤖
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_file: entrypoint.sh
+pinned: false
+---
+
 # Chat UI
 
 **Find the docs at [hf.co/docs/chat-ui](https://huggingface.co/docs/chat-ui/index).**
@@ -950,7 +960,7 @@ MODELS=`[
 
 ### Reasoning Models
 
-ChatUI supports specialized reasoning/Chain-of-Thought (CoT) models through the `reasoning` configuration field. When properly configured, this displays a UI widget that allows users to view or collapse the model’s reasoning steps. We support three types of reasoning parsing:
+ChatUI supports specialized reasoning/Chain-of-Thought (CoT) models through the `reasoning` configuration field. When properly configured, this displays a UI widget that allows users to view or collapse the model's reasoning steps. We support three types of reasoning parsing:
 
 #### Token-Based Delimitations
 
